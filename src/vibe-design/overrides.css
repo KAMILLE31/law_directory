@@ -1,0 +1,53 @@
+/* 조선일보 서체 파일을 src/fonts/에 같은 이름으로 추가하면 자동 적용됩니다. */
+@font-face {
+  font-family: "Chosunilbo";
+  src: url("../fonts/Chosunilbo-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Chosunilbo";
+  src: url("../fonts/Chosunilbo-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Chosunilbo";
+  src: url("../fonts/Chosunilbo-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Chosunilbo";
+  src: url("../fonts/Chosunilbo-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+/* 요청하신 초록·노랑 팔레트와 조선일보 서체 우선 설정입니다. */
+:root:root:root {
+  --font-sans: "Chosunilbo", "조선일보명조", "Chosun Myungjo", serif;
+  --font-display: "Chosunilbo", "조선일보명조", "Chosun Myungjo", serif;
+  --color-bg: #fff5d1;
+  --color-surface: #fffdf4;
+  --color-surface-2: #f5edc9;
+  --color-border: #b4bd62;
+  --color-border-strong: #8ebd9d;
+  --color-text: #1a475c;
+  --color-text-2: #346275;
+  --color-muted: #657262;
+  --color-primary: #8ebd9d;
+  --color-primary-fg: #1a475c;
+  --color-primary-strong: #1a475c;
+  --color-primary-weak: #dcebdc;
+  --color-accent: #fad563;
+  --color-accent-fg: #1a475c;
+  --color-success: #8ebd9d;
+  --color-warning: #fad563;
+  --color-danger: #b4bd62;
+  --color-info: #8ebd9d;
+  --focus-ring: #1a475c;
+}
